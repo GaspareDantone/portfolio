@@ -8,7 +8,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
   <link href="/src/styles.css" rel="stylesheet">
 </head>
-<body class="bg-sky-50">
+<body class="">
      <x-navbar />
      {{ $slot}}
      <x-footer />
