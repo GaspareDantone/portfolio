@@ -1,8 +1,8 @@
-<footer class="footer footer-center bg-base-200 text-base-content rounded p-10">
+<footer class="footer footer-center bg-base-200 text-base-content rounded p-10 bg-yellow-100">
   <nav class="grid grid-flow-col gap-4">
     <a class="link link-hover">About us</a>
     <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
+    <a class="link link-hover">Project</a>
     <a class="link link-hover">Press kit</a>
   </nav>
   <nav>
@@ -43,6 +43,6 @@
     </div>
   </nav>
   <aside>
-    <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+    <p>Copyright ©GaspareDAntone2025 </p>
   </aside>
 </footer>
