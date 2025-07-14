@@ -1,71 +1,81 @@
 <x-main>
     
-    <div class=" bg-red-100   min-h-screen  ">
-        <div>I proggetti al momento sviluppati durante il mio corso di studi e lavori previta</div>
-        <div class="  flex justify-evenly">
-            <div class=" grid lg:grid-cols-3 grid-cols-1">
- <!-- firstcard -->
-                <div class="card bg-base-100 w-96 shadow-sm mt-20 mx-5">
-                 <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Card Title</h2>
-                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+    <div class=" bg-yellow-50   min-h-screen    ">
+        <div class="max-w-screen-xl mx-auto ">
+            <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- firstcard -->
+                <div class="card bg-red-50 w-full max-w-sm shadow-sm mt-20 ">
+                        <figure>
+                            <img
+                            src="storage/media/easy.it.png"
+                            alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Presto.it</h2>
+                            <p>Progetto creato durante il corso di studi in AULAB.Realizzato usando HTML, CSS e JAVASCRIPT usando un API da un file JSON</p>
+                            <div class="card-actions justify-end">
+                                <a href="" class="btn btn-outline btn-info">Link al progetto</a>
+                            </div>
                         </div>
-                    </div>
                 </div>
-<!-- SECONDA CARD -->
-                <div class="card bg-base-100 w-96 shadow-sm mt-20 mx-5">
-                 <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Card Title</h2>
-                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+               
+                
+                <!-- SECONDA CARD -->
+                <div class="card bg-red-50 w-full max-w-sm shadow-sm mt-20 ">
+                        <figure>
+                            <img
+                            src="storage/media/easy2.png"
+                            alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Easy.it</h2>
+                            <p>Progetto creato in Team come esame finale per il corso in Aulab.Realizzato usando il framework LARAVEL, con CSS, JAVASCRIPT, BOOTSTRAP E GOOGLE AI per la revisone delle foto negli annunci</p>
+                            <div class="card-actions justify-end">
+                                <a href="" class="btn btn-outline btn-info">Link al progetto</a>
+                            </div>
                         </div>
-                    </div>
                 </div>
+
+                
                 <!-- terza -->
-                 <div class="card bg-base-100 w-96 shadow-sm mt-20 mx-5">
-                 <figure>
-                    <img
-                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                    alt="Shoes" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title">Card Title</h2>
-                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                 <div class="card bg-red-50 w-full max-w-sm shadow-sm mt-20 ">
+                        <figure>
+                            <img
+                            src="storage/media/jemelin.png"
+                            alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Casa vacanza jemelin</h2>
+                            <p>Work in progress</p>
+                            <div class="card-actions justify-end">
+                                <a href="" class="btn btn-outline btn-info">Link al progetto</a>
+                            </div>
                         </div>
-                    </div>
                 </div>
+                
+                <!-- finecard -->
+
+                
                 
             </div>
             
-        
-        
-        
-        
-        
         </div>
-       
+        
         
             
         
+        
+        
+        
+        
+        
+       
+    </div>    
+            
+</x-main>        
             
       
         
         
     
-    </div>
-</x-main>
+    
