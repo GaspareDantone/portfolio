@@ -1,9 +1,10 @@
 <x-main>
-    <div class="hero bg-yellow-50 min-h-screen ">
-  <div class="hero-content flex-col lg:flex-row">
+    <div class="hero bg-yellow-50 min-h-screen overflow-hidden  ">
+  <div class="hero-content flex flex-col lg:flex-row items-center gap-8 px-4">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-      class="max-w-sm rounded-lg shadow-2xl"
+      src="storage/media/monitor.jpg"
+      class=" rounded-lg shadow-2xl"
+      alt="Foto di monitor"
     />
     <div>
       <h1 class="text-5xl font-bold text-center">Mi presento</h1>
@@ -12,7 +13,7 @@
       </p>
       <h3 class="text-4xl font-bold text-center">Studi</h3>
       <p class="py-6 text-center text-3xl">
-        In Aulab nel percorso di studi ho appreso diverse tecnologie utilizzate nell'ambiente Web tra cui HTML, CSS, JAVASCRIPT, BOOTSTRAP.PHP e il framework LARAVEL,per il versionamento del codice utilizzo GIT con GITUB, al momento sto studiando TAILWIND con il quale è realizzato questo progetto
+        In Aulab nel percorso di studi ho appreso diverse tecnologie utilizzate nell'ambiente Web tra cui HTML, CSS, JAVASCRIPT, BOOTSTRAP, PHP e il framework LARAVEL,per il versionamento del codice utilizzo GIT con GITUB, al momento sto studiando TAILWIND con il quale è realizzato questo progetto
       </p>
         
       <a href="{{ route('homepage')}}" class="btn btn-outline btn-error">ComeBack</a>
