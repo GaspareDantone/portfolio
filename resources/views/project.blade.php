@@ -45,7 +45,7 @@
                             alt="Shoes" class="w-full h-full object-cover" />
                         </figure>
                         <div class="card-body">
-                            <h2 class="card-title">Casa vacanza U' zu ciccio</h2>
+                            <h2 class="card-title">Casa vacanza SudPoint</h2>
                             <p>Work in progress</p>
                             <div class="card-actions justify-end">
                                 <a href="" class="btn btn-outline btn-error">Link al progetto</a>
